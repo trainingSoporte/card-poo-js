@@ -1,0 +1,12 @@
+@use "card/card-styles" as card;
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    .card{
+        @include card.card;
+    }
+}

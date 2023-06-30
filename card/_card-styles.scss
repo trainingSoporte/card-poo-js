@@ -1,0 +1,27 @@
+@mixin card{
+
+    &__container{
+        background-color: blueviolet;
+    }
+
+    &__controls{
+        background-color: red;
+        & .trash{
+            color: red;
+        }
+        & .fav{
+            color: red;
+        }
+        & .down{
+            color: red;
+        }
+        & .max{
+            color: red;
+        }
+    }
+
+    &__content{
+        background-color: aqua;
+    }
+
+}
