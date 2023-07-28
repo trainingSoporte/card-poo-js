@@ -1,4 +1,10 @@
 styles.css
 styles.css.map
 
-card/card.js
+card/api
+
+server.js
+
+node_modules
+
+package-lock.json
